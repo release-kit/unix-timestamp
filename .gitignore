@@ -1,0 +1,16 @@
+.DS_Store
+*.log
+npm-debug.log*
+lerna-debug.log*
+node_modules
+.env
+.env.test
+.cache
+.next
+.nuxt
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+package-lock.json

@@ -1,0 +1,19 @@
+name: 'Unix Timestamp'
+description: 'Get the unix timestamp from current or specified date'
+
+inputs:
+  date:
+    description: 'ISO date to convert to unix timestamp'
+    required: false
+
+outputs:
+  timestamp:
+    description: 'Unix timestamp'
+
+runs:
+  using: 'node20'
+  main: 'dist/index.js'
+
+branding:
+  icon: 'play'
+  color: 'gray-dark'
